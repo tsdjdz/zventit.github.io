@@ -1,0 +1,179 @@
+
+body {
+	padding: 0;
+	padding-left: 10;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-sherif;
+	background-color: lightgray;
+	background-image: url('background.png');
+}
+
+header {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+nav ul {
+	list-style: none;
+
+	
+}
+div h1 {
+	margin-bottom: 10px;
+	font-size: 60;
+	font-weight: 2;
+	font-style: italic;
+	text-decoration: overline;
+	text-decoration-thickness: 2px;
+
+}
+div h4{
+	padding: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+div li a img{
+	border-width: 20;
+	border-style: groove;
+	border-color: rgb(129, 129, 129);
+	border-radius: 20px;
+	background-color: rgb(150, 150, 150);
+	padding: 20px;
+	
+
+}
+div li a{
+	color: green;
+	text-decoration: none;
+	
+}
+div li {
+	font-weight: 500;
+	list-style: none;
+	font-size: 50;
+	color: red;
+	padding: 5px;
+	padding-top: 40px;
+	
+	
+	
+}
+
+nav ul li a {
+	font-weight: 600;
+	padding: 5px;
+	color: darkgreen;
+	font-size: 25px;
+	border-width: 15px;
+	border-style: groove;
+	border-color: gray;
+}
+
+div h2{
+	font-weight: 600;
+	padding: 5px;
+	border-style: groove;
+	border-color: gray;
+	border-width: 15px;
+}
+div h2 a{
+	color: darkgreen;
+}
+dl dd h2 {
+	color: black;
+}
+dl dt a img {
+	border-width: 20;
+	border-style: groove;
+	border-color: rgb(17, 17, 17);
+	border-radius: 20px;
+	background-color: rgb(26, 26, 26);
+}
+
+
+.productname {
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+.productname dd {
+	margin:0; 
+	font-size:90%;
+}
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.prize {
+	padding: 2px;
+	font-size: 20px;
+	margin: 5px;
+	border-style:solid;
+	border-color:gray;
+	border-width: 2px;
+	border-radius: 500px;
+	background-color: gray;
+}
+
+
+
+.slider {
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 50px;
+	border-color: black;
+	border-width: 10px;
+	border-style:groove;
+	
+  }
+  .image-container {
+	width: 1500px;
+	height: 300px;
+	clear: both;
+	position: relative;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+	transition: left 2s;
+
+	
+	
+  }
+  .slide {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	
+	
+  }
+  #slide-1:target ~ .image-container {
+	left: 0px;
+	
+  }
+  #slide-2:target ~ .image-container {
+	left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+	left: -1000px;
+  }
+  .buttons {
+	position: relative;
+	top: -20px;
+	
+  }
+  .buttons a {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+	background-color: black;
+  }
